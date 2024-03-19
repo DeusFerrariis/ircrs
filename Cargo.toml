@@ -1,0 +1,12 @@
+[package]
+name = "irc-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.30"
+rocket = "0.5.0"
+rocket_ws = "0.1.0"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+tokio = { version = "1.36.0", features = ["full"] }
